@@ -13,7 +13,7 @@ def has_failed(marks):
 
 
 def calculate_grade(percentage, failed=False):
-    # Fixed: grade now agrees with PASS/FAIL (original could show grade D but result FAIL)
+    # Fixed:  grade now agrees with PASS/FAIL (original could show grade D but result FAIL)
     if failed:
         return "Fail"
     if percentage >= 90:
